@@ -1,0 +1,115 @@
+body
+{
+    background-color: white;
+    font-family: 'Didact Gothic';
+}
+nav .nav-item
+{
+    margin-left: 30px;
+    font-size: 20px;
+}
+header
+{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,123,255,.5), rgba(0,123,255,.5)), url(../images/mountains.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.left p
+{
+    font-family: 'Didact Gothic';
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+#inputs
+{
+    height: 150px;
+}
+#advices
+{
+    height: 50vh;
+}
+.one 
+{
+    border-left: 1px solid #007bff;
+    border-bottom: 1px solid #007bff;
+    border-right: 1px solid transparent;
+    border-top: 1px solid transparent;
+}
+.three
+{
+    border-right: 1px solid #007bff;
+    border-bottom: 1px solid #007bff;
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent; 
+
+}
+#why
+{
+    height: 90vh;
+}
+.first
+{
+    height: 50%;
+}
+.first p::after
+{
+    content: "";
+    width: 500px;
+    height: 1px;
+    background-color:#ebe6e6 ;
+    display: block;
+    margin: 25px auto;
+    border: 1px solid #ebe6e6;
+    border-radius: 10px;
+}
+.second a:link
+{
+    border: 1px solid #efefef;
+    margin-top: 0px;
+    
+}
+.second p
+{
+    border: 1px solid #efefef;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+#meetauthors
+{
+    height: 100vh;
+}
+
+.card-body img
+{
+    margin-top: -40px;
+}
+#getintouch
+{
+  height: 100vh;
+}
+
+#getintouch .leftimg
+{
+    margin-top: 150px;
+    
+}
+#getintouch  textarea
+{
+    border-bottom: 0px;
+    
+}
+footer
+{
+    height: 50vh;
+}
+footer p
+{
+    font-size: 14px;
+    padding-top: 60px;
+    padding-left: 100px;
+    font-weight: lighter;
+}
